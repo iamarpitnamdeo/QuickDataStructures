@@ -1,8 +1,11 @@
 package Sorting;
-
 /*
-
+Selection sort gives a time complexity of O(n2) in all cases regardless of arrangement of data
+It could be useful in cases when swapping operation are very costly to do this would help as number of swaps in selection sort are :  size – 1
+ Time Complexity - O(n Square)
+ Space Complexity - O(n)
 */
+
 class Main {
     public static void main(String[] args) {
         int arr[] = { 72, 50, 10, 44, 20 };
