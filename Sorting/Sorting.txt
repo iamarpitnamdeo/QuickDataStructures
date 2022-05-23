@@ -1,0 +1,6 @@
+There are mainly 5 parameters to select a sorting algorithm
+1. Time Complexity
+2. Space Complexity
+3. Stability ( maintains order if same key)
+4. Internal or External sorting
+5. Recursive or non Recursive
