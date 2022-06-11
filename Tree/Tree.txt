@@ -1,0 +1,35 @@
+Spanning Tree 
+
+A spanning tree is a subset of tree, in which all the vertex of tree (T) are present but it may no contain all the edges. 
+
+  - Minimum Spanning Tree - It is weighted connected graph G is called a minimum spanning tree if it's weight is minimum. 
+
+Algorithm to find minimum spanning tree 
+
+1. Prims Algorithm 
+2. Kruskal Algorithm 
+
+
+	Prims Algorithm :-
+	Steps :-
+	1. Select the pair with minimum weight 
+	2. Select the adjacent vertex and select he minimum weighted edge, using the adjacent vertex,
+	   but it is very important that the selected adjacent vertex should not form the circuit. 
+
+	3. Repeat step 1 and 2 until all the vertex are covered. 
+
+		
+	Kruskal algorithm :-
+
+	Steps:-
+	1. Select a pair with the minimum weight each time select adjacent vertex should not form circuit. 
+	2. Repeat step1 until all steps are covered. 
+	(here it is not important to select adjacent edge)
+
+
+
+Shortest path:-
+	Dijkstra's Algorithm 
+	This algorithm suggest the shortest Parth from some source node to other destination node. 
+	We start finding distance from the string node and find all the path from it to neighbouring nodes. 
+	
