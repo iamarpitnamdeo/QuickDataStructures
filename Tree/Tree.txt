@@ -32,4 +32,26 @@ Shortest path:-
 	Dijkstra's Algorithm 
 	This algorithm suggest the shortest Parth from some source node to other destination node. 
 	We start finding distance from the string node and find all the path from it to neighbouring nodes. 
+
+	Than which ever is nearest node those Parth are selected 
+	
+	So the process of finding the nearest node is repeated till the end node so the path is called shortest path.
+
+	P = set of already selected nodes
+	T = Remaining nodes.
+
+	
+
+
+Hashing 
+	- Open Hashing
+	- Close Hashing
+
+	1. Devision Method - in this method we use modern arithmetic system to divide the key value by some integer devisors it gives us the location where the element can be placed. 
+
+	2. Mid Square Method - in this case we square the value of a key and takes the numbers of digits require to form an address from the middle position of squrare value. 
+
+	3. Folding Method - in this method the keys portion inserts the no of parts and even parts having the same length. 
+
+	
 	
